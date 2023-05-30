@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Encriptador</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Encriptador</h1>
+    <label for="text">Texto:</label>
+    <textarea id="text" rows="4" cols="50"></textarea>
+    <div class="options">
+      <input type="radio" id="decrypt" name="operation" value="decrypt">
+      <label for="decrypt">Encriptar</label>
+      <input type="radio" id="encrypt" name="operation" value="encrypt" checked>
+      <label for="encrypt">Desencriptar</label>
+    </div>
+    <button onclick="performOperation()">Realizar Operación</button>
+    <div class="result">
+      <label for="result">Resultado:</label>
+      <textarea id="result" rows="4" cols="50" readonly></textarea>
+      <button onclick="copyResult()">Copiar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
