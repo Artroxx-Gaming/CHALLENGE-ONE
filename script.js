@@ -5,19 +5,19 @@ function performOperation() {
   var dictionary;
   if (operation === "encrypt") {
     dictionary = {
-      'e': 'enter',
-      'i': 'imes',
-      'a': 'ai',
-      'o': 'ober',
-      'u': 'ufat'
-    };
-  } else {
-    dictionary = {
       'enter': 'e',
       'imes': 'i',
       'ai': 'a',
       'ober': 'o',
       'ufat': 'u'
+    };
+  } else {
+    dictionary = {
+      'e': 'enter',
+      'i': 'imes',
+      'a': 'ai',
+      'o': 'ober',
+      'u': 'ufat'
     };
   }
 

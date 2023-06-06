@@ -24,7 +24,7 @@ body {
 
 h1 {
   text-align: center;
-  color: #ff4081;
+  color: #001aff;
   font-size: 28px;
   animation: bounceIn 1s ease-in-out;
 }
@@ -87,7 +87,7 @@ textarea {
 button {
   display: block;
   margin: 10px 0;
-  background-color: #ff4081;
+  background-color: #001aff;
   color: #fff;
   border: none;
   border-radius: 3px;

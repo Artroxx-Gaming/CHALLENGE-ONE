@@ -6,14 +6,14 @@
 </head>
 <body>
   <div class="container">
-    <h1>Encriptador</h1>
+    <h1>Encriptador de textos by Arthur</h1>
     <label for="text">Texto:</label>
     <textarea id="text" rows="4" cols="50"></textarea>
     <div class="options">
-      <input type="radio" id="decrypt" name="operation" value="decrypt">
-      <label for="decrypt">Encriptar</label>
       <input type="radio" id="encrypt" name="operation" value="encrypt" checked>
-      <label for="encrypt">Desencriptar</label>
+      <label for="encrypt">Encriptar</label>
+      <input type="radio" id="decrypt" name="operation" value="decrypt">
+      <label for="decrypt">Desencriptar</label>
     </div>
     <button onclick="performOperation()">Realizar Operación</button>
     <div class="result">
