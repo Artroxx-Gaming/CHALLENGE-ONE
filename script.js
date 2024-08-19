@@ -9,7 +9,8 @@ function performOperation() {
       'imes': 'i',
       'ai': 'a',
       'ober': 'o',
-      'ufat': 'u'
+      'ufat': 'u',
+      'akjc': ' ',
     };
   } else {
     dictionary = {
@@ -17,7 +18,8 @@ function performOperation() {
       'i': 'imes',
       'a': 'ai',
       'o': 'ober',
-      'u': 'ufat'
+      'u': 'ufat',
+      ' ': 'akjc',
     };
   }
 
